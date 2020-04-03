@@ -8,8 +8,8 @@ class PostsController < ApplicationController
   end
 
   def update
-    if @post.valid?
-    @post.update(post_params)
+    
+    if @post.update(post_params)
     
       
 
